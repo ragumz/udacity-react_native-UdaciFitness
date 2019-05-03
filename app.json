@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "reactnd-UdaciFitness",
-    "slug": "reactnd-UdaciFitness",
+    "name": "UdaciFitness",
+    "description": "The best triathlon tracker ever",
+    "slug": "udacfitness",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
@@ -10,7 +11,10 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/udacifitness-512.png",
+    "notification": {
+      "icon": "./assets/udacifitness-45.png"
+    },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -23,7 +27,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "org.udacifitness.exp"
+    },
+    "android": {
+      "package": "org.udacifitness.exp"
     }
   }
 }
